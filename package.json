@@ -1,0 +1,32 @@
+{
+  "name": "ecom_stripe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sanity/client": "^3.2.0",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.19.1",
+    "@stripe/stripe-js": "^1.25.0",
+    "canvas-confetti": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "next": "12.1.0",
+    "next-sanity-image": "^6.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "sanity": "^3.19.1",
+    "stripe": "^8.209.0",
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "8.53.0",
+    "eslint-config-next": "14.0.1"
+  }
+}
